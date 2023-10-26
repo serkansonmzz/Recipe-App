@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+li {
+  list-style-type: none;
+}
+
+@mixin mobile {
+  @media (max-width: 500px) {
+  }
+}
+@mixin ipad {
+  @media (max-width: 700px) {
+  }
+}
+@mixin laptop {
+  @media (max-width: 1200px) {
+  }
+}
+
+$yellow: #fbda61;
+$white: #f9f5f3;
+$pink: #ff5acd;
